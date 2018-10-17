@@ -1,5 +1,9 @@
 require 'cyberSource_client'
 
+# * This is a sample code to call InstrumentIdentifierApi,
+# * Process an Instrument Identifier
+# * Include the profileId in the POST request to create a new instrument identifier.
+
 public
 class CreateInstrumentIdentifier
   def main

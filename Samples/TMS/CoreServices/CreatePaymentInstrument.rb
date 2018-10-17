@@ -1,4 +1,9 @@
 require 'cyberSource_client'
+
+# * This is a sample code to call PaymentInstrumentApi,
+# * Process an Payment Instrument
+# * Include the profileId in the POST request to create a new payment instrument.
+
 public
 class CreatePaymentIdentifier
   def main

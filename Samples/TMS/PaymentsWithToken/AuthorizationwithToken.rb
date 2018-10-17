@@ -58,6 +58,7 @@ class AuthorizationWithToken
 
         paymentInformation = CyberSource::V2paymentsPaymentInformation.new
         customer = CyberSource::V2paymentsPaymentInformationCustomer.new
+        # Validation issue in model class , expecting customer_id length <=26
         customer.customer_id = "7500BB199B4270EFE05340588D0AFCAD"
         paymentInformation.customer = customer
         request.payment_information = paymentInformation
